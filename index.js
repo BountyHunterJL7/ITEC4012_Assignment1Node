@@ -9,7 +9,7 @@ const port = 9000;
 
 // API / URLS
 app.get("/", (req, res) => {
-    res.send("What do you want to learn about?");
+    res.send("What do you want to learn about?  in the url add /api/mustang or /api/porsche");
 });
 
 app.get("/api/mustang", (req, res) =>{
